@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MWF Suppliers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    body {
+  background-color: #f5f8fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #2a4ec2;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  color: #1a3b6e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 6px;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index .html">MWF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="index .html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="suppliers.html">Suppliers</a></li>
+        <li class="nav-item"><a class="nav-link" href="customers.html">Customers</a></li>
+        <li class="nav-item"><a class="nav-link" href="user.html">Users</a></li>
+        <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h2 class="mb-4 text-center">Our Suppliers</h2>
+<div class="mb-4">
+
+  <input type="text" id="filterInput" class="form-control" placeholder="Search suppliers by product...">
+</div>
+
+  <div class="row g-4">
+    <!-- Supplier 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">GreenWood Suppliers Ltd</h5>
+          <p><strong>Products Supplied:</strong> Timber, Poles, Hardwood</p>
+          <p><strong>Contact:</strong> +256 700318634</p>
+          <p><strong>Email:</strong> contact@greenwood.co.ug</p>
+          <p><strong>Location:</strong> Kampala, Uganda</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supplier 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">PinePro Suppliers</h5>
+          <p><strong>Products Supplied:</strong> Pine Poles, Treated Wood</p>
+          <p><strong>Contact:</strong> 0781646204</p>
+          <p><strong>Email:</strong> info@pinepro.com</p>
+          <p><strong>Location:</strong> Jinja, Uganda</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supplier 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Oak & More</h5>
+          <p><strong>Products Supplied:</strong> Hardwood, Softwood, Custom Sizes</p>
+          <p><strong>Contact:</strong> 0700318634</p>
+          <p><strong>Email:</strong> sales@oakandmore.ug</p>
+          <p><strong>Location:</strong> Mbarara, Uganda</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
